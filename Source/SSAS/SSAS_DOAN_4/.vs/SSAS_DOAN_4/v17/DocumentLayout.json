@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\KTDL_Lab\\DOAN\\SSAS_DOAN_4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{67B7CF86-18E1-45D7-942E-907F0665379B}|SSAS_DOAN_4\\SSAS_DOAN_4.dwproj|D:\\KTDL_Lab\\DOAN\\SSAS_DOAN_4\\SSAS_DOAN_4\\OLAP 3.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{67B7CF86-18E1-45D7-942E-907F0665379B}|SSAS_DOAN_4\\SSAS_DOAN_4.dwproj|solutionrelative:SSAS_DOAN_4\\OLAP 3.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 328,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OLAP 3.cube [Design]",
+              "DocumentMoniker": "D:\\KTDL_Lab\\DOAN\\SSAS_DOAN_4\\SSAS_DOAN_4\\OLAP 3.cube",
+              "RelativeDocumentMoniker": "SSAS_DOAN_4\\OLAP 3.cube",
+              "ToolTip": "D:\\KTDL_Lab\\DOAN\\SSAS_DOAN_4\\SSAS_DOAN_4\\OLAP 3.cube [Design]",
+              "RelativeToolTip": "SSAS_DOAN_4\\OLAP 3.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-29T03:45:30.037Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 72,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

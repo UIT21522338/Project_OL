@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>SSAS_DOAN_4</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>9HPXifTOxZ/LLNPFYwjFAM5+W6w=Thu,27-06-2024 10:00:22 AMThu,27-06-2024 10:00:22 AM</TimeStamp>
+        <ID>
+          <String>OLAP 3</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>H+c2riUUQIZIXkW5doCxYzQ+Oxc=Thu,27-06-2024 10:05:16 AMThu,27-06-2024 10:05:16 AM</TimeStamp>
+        <ID>
+          <String>OLAP 3</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0wkhBlzF9G84yPvcBN67JZ+X2yo=Sat,29-06-2024 10:45:29 AMSat,29-06-2024 10:45:29 AM</TimeStamp>
+        <ID>
+          <String>DIM Year</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ge46pt+G9I5nPxNVRAQkVyNly8o=Sat,29-06-2024 10:47:02 AMSat,29-06-2024 10:45:29 AM</TimeStamp>
+        <ID>
+          <String>DIM Location</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>pKxMNhmM5oWVPTfY/0NCyOCIm2Y=Sat,29-06-2024 10:47:02 AMSat,29-06-2024 10:45:29 AM</TimeStamp>
+        <ID>
+          <String>DIM Topic</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>inn9rqQXBbzdZllkBggXkzZ6gJk=Sat,29-06-2024 10:47:02 AMSat,29-06-2024 10:45:29 AM</TimeStamp>
+        <ID>
+          <String>DIM Gender</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>16HwTOgnY7Fz8bx/V/ChPJCDw5c=Sat,29-06-2024 10:47:02 AMSat,29-06-2024 10:45:29 AM</TimeStamp>
+        <ID>
+          <String>DIM Education</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Ew15K4O82cojYX2IUmTUQK4D5AA=Sat,29-06-2024 10:47:02 AMSat,29-06-2024 10:45:29 AM</TimeStamp>
+        <ID>
+          <String>DIM Sub Measure</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>22fh2Y2cUKFFFvSuctf03LQhleQ=Sat,29-06-2024 10:47:02 AMSat,29-06-2024 10:45:29 AM/44swWLQbZUZF8d/+uSiXTLNlTo=Sat,29-06-2024 10:45:29 AMSat,29-06-2024 10:45:29 AM</TimeStamp>
+        <ID>
+          <String>OLAP 3</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>TEoOwBATPja9MKTi5fx0Bsh+uXE=Tue,21-05-2024 11:16:16 AMTue,21-05-2024 11:16:16 AM</TimeStamp>
+      <ID>
+        <String>SSAS_DOAN_4</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-06-29T03:47:09.63Z</LastDeployed>
+</DeploymentSnapshot>
