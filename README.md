@@ -26,7 +26,7 @@ These contributions enabled efficient data integration and meaningful analysis o
 
 Lê Nguyễn Nhật Minh - lnnm121103@gmail.com
 
-Project Link: [https://github.com/UIT21522338/PTDLKD](https://github.com/UIT21522338/PTDLKD)
+Project Link: [https://github.com/UIT21522338/Project_OL](https://github.com/UIT21522338/Project_OL)
 
 
 
